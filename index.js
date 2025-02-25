@@ -49,6 +49,10 @@ const updateCartCount = () => {
 
     cartCount.textContent = totalItems
 }
+const addTwoNumber=(a,b)=>{
+return a+b;
+}
+addTwoNumber(10,20);
 
 document.addEventListener("DOMContentLoaded", fetchProducts)
 
